@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog de Zorayda Gutierrez - Tutoriales, reflexiones y experiencias en desarrollo Java">
+    <title>Blog | Zorayda Gutierrez</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <span class="text-primary">Zorayda</span> Gutierrez
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cv.html">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white px-3 ms-2" href="index.html#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="bg-light py-5" style="margin-top: 76px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-3">Blog</h1>
+                    <p class="lead text-muted">
+                        Reflexiones, tutoriales y experiencias en mi camino como desarrolladora
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Featured Post: Reflexión -->
+                <div class="col-12">
+                    <div class="card border-0 shadow blog-card border-start border-5 border-primary">
+                        <div class="card-body p-4">
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="badge bg-primary">Destacado</span>
+                                <span class="badge bg-light text-dark">Reflexión Personal</span>
+                            </div>
+                            <h2 class="card-title fw-bold mb-3">
+                                <a href="#reflexion" class="text-decoration-none text-dark" data-bs-toggle="collapse">
+                                    Reflexión de mi Camino como Desarrolladora Java
+                                </a>
+                            </h2>
+                            <p class="blog-meta mb-3">
+                                <i class="bi bi-calendar3 me-2"></i>Febrero 2026
+                                <i class="bi bi-clock ms-3 me-2"></i>8 min lectura
+                            </p>
+                            <p class="card-text text-muted mb-3">
+                                Un recorrido por mi transición profesional de economista a desarrolladora Full Stack, 
+                                los desafíos que enfrenté, las lecciones aprendidas y mis metas a futuro.
+                            </p>
+                            <div class="collapse" id="reflexion">
+                                <hr class="my-4">
+                                <div class="blog-content">
+                                    <h4 class="fw-bold mb-3">El Inicio: ¿Por qué Programación?</h4>
+                                    <p class="text-muted mb-4">
+                                        Cuando terminé mi Especialización en Economía Monetaria y Financiera en la UNAM, 
+                                        nunca imaginé que menos de dos años después estaría escribiendo código Java y 
+                                        desarrollando plataformas e-commerce. Mi camino en finanzas me había dado habilidades 
+                                        valiosas—análisis cuantitativo, pensamiento estructurado, resolución de problemas 
+                                        complejos—pero sentía que había algo más que quería explorar.
+                                    </p>
+                                    <p class="text-muted mb-4">
+                                        Durante mi tiempo en Envíos Delgado, trabajando con datos financieros y procesos 
+                                        operativos, descubrí que lo que más disfrutaba era optimizar sistemas y automatizar 
+                                        procesos. Fue entonces cuando empecé a investigar sobre programación y me di cuenta 
+                                        de que el desarrollo de software combinaba perfectamente mi lado analítico con mi 
+                                        deseo de crear soluciones tangibles.
+                                    </p>
+
+                                    <h4 class="fw-bold mb-3">Los Desafíos del Aprendizaje</h4>
+                                    <p class="text-muted mb-4">
+                                        <strong>Síndrome del impostor:</strong> El primer gran obstáculo fue interno. 
+                                        ¿Cómo podía yo, con un background en economía, competir con personas que llevaban 
+                                        años programando? Con el tiempo aprendí que mi perspectiva diferente era en realidad 
+                                        un activo. Entiendo el contexto de negocio detrás del código, puedo traducir 
+                                        requerimientos técnicos a términos financieros y viceversa.
+                                    </p>
+                                    <p class="text-muted mb-4">
+                                        <strong>La curva de aprendizaje:</strong> Los primeros meses fueron intensos. 
+                                        HTML, CSS, JavaScript, Java, Spring Boot, MySQL—cada tecnología parecía un universo 
+                                        completo. Pero mi formación académica me había enseñado a estudiar de manera 
+                                        estructurada. Apliqué las mismas técnicas que usaba para entender modelos 
+                                        econométricos: descomponer problemas complejos en partes manejables, practicar 
+                                        consistentemente, y no tener miedo de hacer preguntas.
+                                    </p>
+                                    <p class="text-muted mb-4">
+                                        <strong>Trabajo en equipo y Git:</strong> El proyecto MIXA me enseñó lo crucial 
+                                        que es la colaboración en desarrollo de software. Coordinar un equipo de 10 personas, 
+                                        manejar merge conflicts, hacer code reviews—estas habilidades no se enseñan en 
+                                        tutoriales, se aprenden en la práctica. Cada conflicto resuelto, cada pull request 
+                                        exitoso, fue una pequeña victoria.
+                                    </p>
+
+                                    <h4 class="fw-bold mb-3">Lecciones Aprendidas</h4>
+                                    <div class="card bg-light border-0 mb-4">
+                                        <div class="card-body">
+                                            <ol class="mb-0">
+                                                <li class="mb-3">
+                                                    <strong>El código perfecto no existe:</strong> Al principio intentaba 
+                                                    que cada línea fuera perfecta. Ahora entiendo que es mejor tener código 
+                                                    funcional que se puede mejorar iterativamente.
+                                                </li>
+                                                <li class="mb-3">
+                                                    <strong>La documentación es tu mejor amiga:</strong> Leer documentación 
+                                                    oficial, aunque sea denso al principio, siempre es mejor que depender 
+                                                    solo de tutoriales.
+                                                </li>
+                                                <li class="mb-3">
+                                                    <strong>Los errores son oportunidades:</strong> Cada bug que resolví me 
+                                                    enseñó algo nuevo. El debugging es frustrante, pero es donde realmente 
+                                                    se aprende.
+                                                </li>
+                                                <li class="mb-3">
+                                                    <strong>La comunidad importa:</strong> Stack Overflow, GitHub, foros—la 
+                                                    comunidad de desarrolladores es increíblemente generosa. No tengas miedo 
+                                                    de pedir ayuda.
+                                                </li>
+                                                <li class="mb-0">
+                                                    <strong>Tu background único es valioso:</strong> Mi experiencia en 
+                                                    finanzas no es un obstáculo, es un diferenciador. Puedo aportar 
+                                                    perspectivas que otros desarrolladores sin ese background no tienen.
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+
+                                    <h4 class="fw-bold mb-3">Mis Metas</h4>
+                                    <p class="text-muted mb-2"><strong>Corto plazo (3-6 meses):</strong></p>
+                                    <ul class="text-muted mb-4">
+                                        <li>Completar exitosamente el bootcamp de Generation México</li>
+                                        <li>Contribuir a proyectos open source</li>
+                                        <li>Profundizar en Spring Boot y arquitectura de microservicios</li>
+                                        <li>Conseguir mi primer rol como Full Stack Developer</li>
+                                    </ul>
+
+                                    <p class="text-muted mb-2"><strong>Mediano plazo (1 año):</strong></p>
+                                    <ul class="text-muted mb-4">
+                                        <li>Dominar React o Angular para frontend</li>
+                                        <li>Aprender sobre cloud computing (AWS o Azure)</li>
+                                        <li>Desarrollar un proyecto personal que combine finanzas y tecnología</li>
+                                        <li>Obtener certificaciones relevantes (Oracle Java, AWS)</li>
+                                    </ul>
+
+                                    <p class="text-muted mb-2"><strong>Largo plazo (3-5 años):</strong></p>
+                                    <ul class="text-muted mb-4">
+                                        <li>Convertirme en Senior Full Stack Developer</li>
+                                        <li>Liderar proyectos técnicos de alto impacto</li>
+                                        <li>Mentorear a otros desarrolladores en transición profesional</li>
+                                        <li>Contribuir al ecosistema fintech en México</li>
+                                    </ul>
+
+                                    <h4 class="fw-bold mb-3">Reflexión Final</h4>
+                                    <p class="text-muted mb-3">
+                                        La transición de economía a desarrollo de software ha sido uno de los desafíos más 
+                                        grandes y gratificantes de mi vida profesional. No ha sido fácil—hay días donde el 
+                                        código no compila, donde los bugs parecen multiplicarse, donde dudo si tomé la 
+                                        decisión correcta.
+                                    </p>
+                                    <p class="text-muted mb-3">
+                                        Pero entonces resuelvo un problema complejo, veo cómo mi código funciona en 
+                                        producción, o colaboro exitosamente con mi equipo en un sprint, y recuerdo por qué 
+                                        hice este cambio. La programación me permite crear, resolver problemas reales y 
+                                        tener un impacto tangible.
+                                    </p>
+                                    <p class="text-muted mb-0">
+                                        Si estás considerando una transición similar, mi consejo es: hazlo. Será difícil, 
+                                        pero tu perspectiva única es valiosa. El mundo del desarrollo de software necesita 
+                                        personas con backgrounds diversos. No es solo sobre escribir código—es sobre 
+                                        resolver problemas, y eso es algo que todos podemos aprender.
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#reflexion">
+                                <span class="read-more-text">Leer artículo completo</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 2: Tutorial Git -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow h-100 blog-card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark">Tutorial</span>
+                                <span class="badge bg-light text-dark">Git</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">
+                                Guía de Git para Principiantes: Lo que Necesitas Saber
+                            </h5>
+                            <p class="blog-meta mb-3">
+                                <i class="bi bi-calendar3 me-2"></i>Febrero 2026
+                                <i class="bi bi-clock ms-3 me-2"></i>5 min
+                            </p>
+                            <p class="card-text text-muted">
+                                Git puede ser intimidante al principio. En este artículo comparto los comandos esenciales 
+                                que uso diariamente en mis proyectos y las mejores prácticas para trabajar en equipo.
+                            </p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Próximamente</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 3: Java Basics -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow h-100 blog-card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark">Tutorial</span>
+                                <span class="badge bg-light text-dark">Java</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">
+                                Entendiendo la POO en Java: Conceptos Fundamentales
+                            </h5>
+                            <p class="blog-meta mb-3">
+                                <i class="bi bi-calendar3 me-2"></i>Febrero 2026
+                                <i class="bi bi-clock ms-3 me-2"></i>7 min
+                            </p>
+                            <p class="card-text text-muted">
+                                Clases, objetos, herencia, polimorfismo—estos conceptos de Programación Orientada a 
+                                Objetos explicados de manera simple y con ejemplos prácticos.
+                            </p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Próximamente</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 4: Bootstrap Tips -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow h-100 blog-card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark">Tips</span>
+                                <span class="badge bg-light text-dark">Frontend</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">
+                                5 Tips de Bootstrap que Mejoraron mis Proyectos
+                            </h5>
+                            <p class="blog-meta mb-3">
+                                <i class="bi bi-calendar3 me-2"></i>Marzo 2026
+                                <i class="bi bi-clock ms-3 me-2"></i>4 min
+                            </p>
+                            <p class="card-text text-muted">
+                                Bootstrap hace que el desarrollo frontend sea más rápido, pero hay trucos que no están 
+                                en la documentación. Aquí comparto lo que aprendí en MIXA.
+                            </p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Próximamente</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 5: Career Change -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow h-100 blog-card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark">Carrera</span>
+                                <span class="badge bg-light text-dark">Experiencia</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">
+                                De Economista a Desarrolladora: 5 Habilidades Transferibles
+                            </h5>
+                            <p class="blog-meta mb-3">
+                                <i class="bi bi-calendar3 me-2"></i>Marzo 2026
+                                <i class="bi bi-clock ms-3 me-2"></i>6 min
+                            </p>
+                            <p class="card-text text-muted">
+                                ¿Cambio de carrera? Tu experiencia previa no es un obstáculo. Estas son las habilidades 
+                                de mi carrera en finanzas que me ayudan como desarrolladora.
+                            </p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Próximamente</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Categories -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="fw-bold mb-4">Categorías</h5>
+                            <div class="d-flex flex-wrap gap-2">
+                                <a href="#" class="badge bg-light text-dark text-decoration-none px-3 py-2">
+                                    Tutoriales (3)
+                                </a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none px-3 py-2">
+                                    Reflexiones (1)
+                                </a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none px-3 py-2">
+                                    Java (1)
+                                </a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none px-3 py-2">
+                                    Git/GitHub (1)
+                                </a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none px-3 py-2">
+                                    Frontend (1)
+                                </a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none px-3 py-2">
+                                    Carrera (1)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter (Optional) -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h3 class="fw-bold mb-3">¿Te gustaría recibir más contenido?</h3>
+                    <p class="text-muted mb-4">
+                        Próximamente publicaré más tutoriales, reflexiones y tips sobre desarrollo Full Stack
+                    </p>
+                    <div class="alert alert-info">
+                        <i class="bi bi-info-circle me-2"></i>
+                        Newsletter en construcción. Sígueme en 
+                        <a href="https://www.linkedin.com/in/zorayda-gutierrez" target="_blank">LinkedIn</a> 
+                        para recibir actualizaciones.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2026 Zorayda Gutierrez. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="https://www.linkedin.com/in/zorayda-gutierrez" target="_blank" class="text-white me-3">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/zoraydagtz" target="_blank" class="text-white me-3">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="mailto:zorayda.gutierrezrs@gmail.com" class="text-white">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
